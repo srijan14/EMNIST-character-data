@@ -24,6 +24,6 @@ To convert the eminst data files (.mat format) to local filesystem in a proper t
 
 ''' python create_dataset.py ./eminst_mat/byclass/emnist-byclass.mat byclass```
 
-Running the above command creates a folder structure, a sample of which is present in the ***sample output*** folder.
+Running the above command creates a folder structure, a sample of which is present in the ***sample_output*** folder.
 
 Please read [this](https://www.nist.gov/node/1298471/emnist-dataset) for more details on the dataset and different splits.
