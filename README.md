@@ -20,7 +20,7 @@ To convert the eminst data files (.mat format) to local filesystem in a proper t
 **data_path** is the path for the .mat file
 **byclass** is a helper parameter defining the splits provided in the dataset.
 
-##Example
+### Example
 
 ''' python create_dataset.py ./eminst_mat/byclass/emnist-byclass.mat byclass```
 
