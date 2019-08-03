@@ -15,14 +15,14 @@ pip install -r requirements.txt
 
 To convert the eminst data files (.mat format) to local filesystem in a proper train-test split format:
 
-```python create_dataset.py data_path  byclass ```
+```python create_dataset.py data_path  split_param ```
 
 **data_path** is the path for the .mat file
-**byclass** is a helper parameter defining the splits provided in the dataset.
+**split_param** is just a helper string parameter used to signify the split type for folder structure creation. 
 
 ### Example
 
-''' python create_dataset.py ./eminst_mat/byclass/emnist-byclass.mat byclass```
+``` python create_dataset.py ./eminst_mat/byclass/emnist-byclass.mat byclass```
 
 Running the above command creates a folder structure, a sample of which is present in the ***sample_output*** folder.
 
