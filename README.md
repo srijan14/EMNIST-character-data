@@ -1,5 +1,5 @@
 # EMNIST-character-data
-This repo contains the code to convert .mat format emnist datafiles to local filesystem for better visualization in a proper formatted order.
+This repo contains the code to convert .mat format emnist datafiles to local filesystem for better visualization in a proper formatted order that can be used for training.
 
 ### Prerequisites
 
@@ -18,6 +18,7 @@ To convert the eminst data files (.mat format) to local filesystem in a proper t
 ```python create_dataset.py data_path  split_param ```
 
 **data_path** is the path for the .mat file
+
 **split_param** is just a helper string parameter used to signify the split type for folder structure creation. 
 
 ### Example
